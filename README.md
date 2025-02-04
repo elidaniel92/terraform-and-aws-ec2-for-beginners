@@ -2,7 +2,7 @@
 
 This repository is based on the [freeCodeCamp.org Youtube course](https://www.youtube.com/watch?v=iRaai1IBlB0) by [Derek Morgan](https://www.linkedin.com/in/derekm1215/).
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=iRaai1IBlB0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Video Title](https://img.youtube.com/vi/iRaai1IBlB0/0.jpg)](https://www.youtube.com/watch?v=iRaai1IBlB0)
 
 ## 🚀 Getting Started
 

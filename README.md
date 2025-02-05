@@ -103,7 +103,7 @@ In the first time, it is necessary to choose the OS type. Select the `Linux` opt
 
 If you get to this point, you have successfully created an `EC2` instance in AWS. With IaC, you can quickly provision and destroy infrastructure. 
 
-> ⚠️ Note: Avoid incurring 💸 costs with AWS, destroy (here) the resources as soon as possible. 
+> ⚠️ Note: Avoid incurring 💸 costs with AWS, destroy ([link here](#headdestroy)) the resources as soon as possible. 
 
 ## 🛠️ Managing Infrastructure
 
@@ -184,7 +184,7 @@ Test the output change
 terraform output
 ```
 
-### 🗑️ Destroy infrastructure
+### 🗑️ Destroy infrastructure <a name="headdestroy"></a>
 
 Destroy all infrastructure resources **created by Terraform**. Any others changes will not be undone, for example the [ssh configuration](ssh-config/).
 

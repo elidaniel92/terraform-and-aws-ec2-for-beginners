@@ -64,7 +64,7 @@ provider "aws" {
 
 For `Linux` users is necessary to configure the host OS in the [terraform.tfvars file](terraform.tfvars#L1). The difference between `windows` and `linux` is the script file path to add the host to the `~/.ssh/config` file. See in the [ssh-config](ssh-config) folder.
 ```terraform
-host_os = "windows" # Change to your host OS
+host_os = "linux" # Change to your host OS ("windows" or "linux")
 ```
 
 ```terraform

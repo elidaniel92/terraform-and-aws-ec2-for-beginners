@@ -67,14 +67,6 @@ For `Linux` users is necessary to configure the host OS in the [terraform.tfvars
 host_os = "linux" # Change to your host OS ("windows" or "linux")
 ```
 
-```terraform
-provider "aws" {
-  region                   = "us-east-1"
-  shared_credentials_files = ["~/.aws/credentials"]
-  profile                  = "vscode"
-}
-```
-
 Initialize the directory
 ```
 terraform init 

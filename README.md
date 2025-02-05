@@ -52,7 +52,20 @@ Test the credentials. After the connection, it is possible to explore the [AWS T
 
 ### 🏭 Build infrastructure
 
-In the [providers.tf file](providers.tf) configure the AWS region of the infrastructure.
+In the [providers.tf file](providers.tf#L11) configure the AWS region of the infrastructure.
+
+```terraform
+provider "aws" {
+  region                   = "us-east-1"
+  shared_credentials_files = ["~/.aws/credentials"]
+  profile                  = "vscode"
+}
+```
+
+For `Linux` users is necessary to configure the host OS in the [terraform.tfvars file](terraform.tfvars#L1). The difference between `windows` and `linux` is the script file path to add the host to the `~/.ssh/config` file. See in the [ssh-config](ssh-config) folder.
+```terraform
+host_os = "windows" # Change to your host OS
+```
 
 ```terraform
 provider "aws" {

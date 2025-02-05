@@ -34,7 +34,7 @@ cd terraform-and-aws-ec2-for-beginners
 
 Create a user in Identity and Access Management (IAM) with the `AdministratorAccess` permission policy. Generate AWS Access Key ID and Secret Access Key for the user.
 
-> 🚨 **Danger**:  do not share your 🔑 access key! Deactivate your access key after finish the tutorial.
+> 🚨 **Danger**:  do not share your 🔑 access key! Deactivate your access key [(link here)](#headdeactivate) after finish the tutorial.
 
 ![AWS IAM](./assets/aws-access-key.gif)
 
@@ -216,7 +216,7 @@ terraform destroy --auto-approve
 
 > ⚠️ Note: Allowing unrestricted ingress (0.0.0.0/0) is insecure and exposes resources to potential attacks. It is typically used for testing or specific use cases but should be restricted in production environments.
 
-### 🔑 Deactivate Access Key
+### 🔑 Deactivate Access Key <a name="headdeactivate"></a>
 
 Deactivate your access key after finish the tutorial.
 

@@ -202,6 +202,7 @@ terraform destroy --auto-approve
 
 ### 🌐 Restrict SSH traffic to specific IP ranges     
 
+[See main.tf](main.tf#L59)
 ```terraform
   # Allow SSH traffic
   ingress {

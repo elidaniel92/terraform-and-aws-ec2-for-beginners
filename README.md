@@ -99,6 +99,10 @@ In the first time, it is necessary to choose the OS type. Select the `Linux` opt
 
 ![EC2 SSH CONNECTION](./assets/ec2-ssh-connection.gif)
 
+### 🎉 Congratulations!
+
+If you get to this point, you have successfully created an `EC2` instance in AWS. Avoid incurring costs with AWS, destroy the resources as soon as possible. With IaC, you can quickly provision and destroy infrastructure.
+
 ## 🛠️ Managing Infrastructure
 
 ### 🔄 Update EC2 Instance

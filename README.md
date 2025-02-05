@@ -36,19 +36,19 @@ Create a user in Identity and Access Management (IAM) with the `AdministratorAcc
 
 > 🚨 **Danger**:  do not share your 🔑 access key! Deactivate your access key [(link here)](#headdeactivate) after finish the tutorial.
 
-![AWS IAM](./assets/aws-access-key.gif)
+![AWS IAM](./docs/aws-access-key.gif)
 
 ### Create the Credentials Profile 
 
 Add the AWS Access Key ID and Secret Access Key to the `~/.aws/credentials` file with the AWS Toolkit extension.
 
-![AWS CREDENTIALS PROFILE](./assets/aws-credentials.gif)
+![AWS CREDENTIALS PROFILE](./docs/aws-credentials.gif)
 
 ### Test the connection
 
 Test the credentials. After the connection, it is possible to explore the [AWS Toolkit features.](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)
 
-![TEST CREDENTIALS](./assets/test-credentials.gif)
+![TEST CREDENTIALS](./docs/test-credentials.gif)
 
 ### 🏭 Build infrastructure
 
@@ -95,9 +95,9 @@ Do a SSH connection to the EC2 instance with VSCode.
 
 In the first time, it is necessary to choose the OS type. Select the `Linux` option.
 
-![OS SHH CONNECTION](./assets/os-ssh-connection.png)
+![OS SHH CONNECTION](./docs/os-ssh-connection.png)
 
-![EC2 SSH CONNECTION](./assets/ec2-ssh-connection.gif)
+![EC2 SSH CONNECTION](./docs/ec2-ssh-connection.gif)
 
 ### 🎉 Congratulations!
 
@@ -220,7 +220,7 @@ terraform destroy --auto-approve
 
 Deactivate your access key after finish the tutorial.
 
-<img src="./assets/deactivate-access-key.png" alt="drawing" style="width:50%;"/>
+<img src="./docs/deactivate-access-key.png" alt="drawing" style="width:50%;"/>
 
 ## 📜 License
 

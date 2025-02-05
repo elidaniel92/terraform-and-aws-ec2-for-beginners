@@ -218,6 +218,8 @@ terraform destroy --auto-approve
 
 ### 🔑 Deactivate Access Key
 
+Deactivate your access key after finish the tutorial.
+
 <img src="./assets/deactivate-access-key.png" alt="drawing" style="width:50%;"/>
 
 ## 📜 License

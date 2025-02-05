@@ -101,7 +101,9 @@ In the first time, it is necessary to choose the OS type. Select the `Linux` opt
 
 ### 🎉 Congratulations!
 
-If you get to this point, you have successfully created an `EC2` instance in AWS. Avoid incurring costs with AWS, destroy the resources as soon as possible. With IaC, you can quickly provision and destroy infrastructure.
+If you get to this point, you have successfully created an `EC2` instance in AWS. With IaC, you can quickly provision and destroy infrastructure. 
+
+> ⚠️ Note: Avoid incurring 💸 costs with AWS, destroy (here) the resources as soon as possible. 
 
 ## 🛠️ Managing Infrastructure
 

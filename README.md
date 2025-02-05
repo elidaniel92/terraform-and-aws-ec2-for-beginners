@@ -32,7 +32,7 @@ cd terraform-and-aws-ec2-for-beginners
 
 ### Create a user
 
-Create a user in Identity and Access Management (IAM) with the AdministratorAccess permission policy. Generate AWS Access Key ID and Secret Access Key for the user.
+Create a user in Identity and Access Management (IAM) with the `AdministratorAccess` permission policy. Generate AWS Access Key ID and Secret Access Key for the user.
 
 > 🚨 **Danger**:  do not share your 🔑 access key! Deactivate your access key after finish the tutorial.
 
@@ -103,7 +103,7 @@ In the first time, it is necessary to choose the OS type. Select the `Linux` opt
 
 If you get to this point, you have successfully created an `EC2` instance in AWS. With IaC, you can quickly provision and destroy infrastructure. 
 
-> ⚠️ Note: Avoid incurring 💸 costs with AWS, destroy ([link here](#headdestroy)) the resources as soon as possible. 
+> ⚠️ Note: Avoid incurring 💸 costs with AWS, 🗑️ destroy ([link here](#headdestroy)) the resources as soon as possible. 
 
 ## 🛠️ Managing Infrastructure
 

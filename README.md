@@ -99,6 +99,8 @@ In the first time, it is necessary to choose the OS type. Select the `Linux` opt
 
 ![EC2 SSH CONNECTION](./assets/ec2-ssh-connection.gif)
 
+## 🛠️ Managing Infrastructure
+
 ### 🔄 Update EC2 Instance
 
 The EC2 instance will be replaced. It is possible to change any of the parameters in the AWS EC2. For example, you can change the OS type.
@@ -190,9 +192,9 @@ terraform destroy
 terraform destroy --auto-approve
 ```
 
-### 🛡️ Security
+## 🛡️ Security
 
-#### 🌐 Restrict SSH traffic to specific IP ranges     
+### 🌐 Restrict SSH traffic to specific IP ranges     
 
 ```terraform
   # Allow SSH traffic
@@ -207,6 +209,10 @@ terraform destroy --auto-approve
 
 > ⚠️ Note: Allowing unrestricted ingress (0.0.0.0/0) is insecure and exposes resources to potential attacks. It is typically used for testing or specific use cases but should be restricted in production environments.
 
-#### 🔑 Deactivate Access Key
+### 🔑 Deactivate Access Key
 
 <img src="./assets/deactivate-access-key.png" alt="drawing" style="width:50%;"/>
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.

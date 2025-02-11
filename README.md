@@ -12,9 +12,10 @@ This repository is based on the [freeCodeCamp.org Youtube course](https://www.yo
 
 [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
-[Install VSCode](https://code.visualstudio.com/download)
-- Install the [AWS Toolkit extension](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)
-- Install the [Terraform extension](https://marketplace.visualstudio.com/items?itemName=4ops.terraform)
+[Install VSCode](https://code.visualstudio.com/download) and the extensions:
+- [AWS Toolkit](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)
+- [Terraform](https://marketplace.visualstudio.com/items?itemName=4ops.terraform)
+- [Remote SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
 Clone the repository
 

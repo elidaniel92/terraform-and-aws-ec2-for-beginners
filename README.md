@@ -66,6 +66,10 @@ ssh-keygen -t ed25519 -f "$HOME/.ssh/mtckey" -C "your_email@example.com"
 
 For a different file name, change the file name [here.](main.tf#L75)
 
+The successful result should be:
+
+![SSH Key](./docs/image.png)
+
 ### 🏭 Build infrastructure
 
 In the [providers.tf file](providers.tf#L11) configure the AWS region of the infrastructure.

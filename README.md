@@ -28,7 +28,7 @@ Switch to the repo folder
 cd terraform-and-aws-ec2-for-beginners
 ```
 
-### 🔑 Setting AWS Credentials
+### 🔑 Setting AWS Credentials and SSH Key
 
 ### Create a user
 
@@ -49,6 +49,22 @@ Add the AWS Access Key ID and Secret Access Key to the `~/.aws/credentials` file
 Test the credentials. After the connection, it is possible to explore the [AWS Toolkit features.](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)
 
 ![TEST CREDENTIALS](./docs/test-credentials.gif)
+
+### Generete a SSH Key
+
+Generate a SSH Key for the EC2 instance. The passphrase is optional.
+
+Windows PowerShell
+```
+ssh-keygen -t ed25519 -f "$env:USERPROFILE/.ssh/mtckey" -C "your_email@example.com"
+```
+
+Linux Bash
+```
+ssh-keygen -t ed25519 -f "$HOME/.ssh/mtckey" -C "your_email@example.com"
+```
+
+For a different file name, change the file name [here.](main.tf#L75)
 
 ### 🏭 Build infrastructure
 
